@@ -23,7 +23,7 @@ MathSub:
 	ld a,c ; load c in to a 
 	sub b ; subtract 'b' from 'a'
 jr SaveResult ; jump to save result
-
+
 
 MathAdd:
 	ld a,c ; load c into a
